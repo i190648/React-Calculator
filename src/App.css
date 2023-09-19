@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+}
+
+.calculator {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+form input {
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  background-color: green;
+  margin: 2px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+form input[type="button"]:hover {
+  background-color: rgb(20, 255, 20);
+}
+
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+
+form .display input {
+  text-align: left;
+  flex: 1;
+  font-size: 30px;
+  padding: 0px 10px;
+  background-color: rgb(20, 255, 20);
+}
+
+form input.equal {
+  width: 123px;
+}
+
+ 
